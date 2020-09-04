@@ -59,6 +59,6 @@ my_character.set_race = "Forest Gnome"
 my_character.set_name = "Thistle"
 chartype = my_character.get_race
 charname = my_character.get_name
-puts "#{charname} is a #{chartype}. #{my_character.catchphrase}"
+puts "#{charname} is a #{chartype} #{my_character.type}. #{my_character.catchphrase}"
 
 puts my_character.inspect
